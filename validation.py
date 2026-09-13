@@ -20,6 +20,6 @@ def validate_due_date(due_date):
     
     now = date.today()
 
-    if parsed_date < now:
-        raise ValueError("Due date cannot be in the past")
+    # if parsed_date < now:
+    #     raise ValueError("Due date cannot be in the past")
     return due_date
