@@ -20,7 +20,7 @@ def main():
 
         elif choice == "2":
             index = int(input("Enter task index (0 to exit): "))
-            if index != "0":
+            if index != 0:
                 mark_task_as_complete(index - 1)
 
         elif choice == "3":
