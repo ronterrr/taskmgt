@@ -16,7 +16,10 @@ def main():
             title = input("Title: ")
             description = input("Description: ")
             due_date = input("Due Date (YYYY-MM-DD): ")
-            add_task(title, description, due_date)
+            try: 
+                add_task(title, description, due_date)
+            except ValueError as e:
+                print(e)
 
         elif choice == "2":
             index = int(input("Enter task index (0 to exit): "))
