@@ -30,7 +30,8 @@ def main():
             view_pending_tasks()
 
         elif choice == "4":
-            calculate_progress()
+            progress = calculate_progress()
+            print(progress)
 
         elif choice == "5":
             print("Exiting the program...")

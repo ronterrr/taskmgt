@@ -44,5 +44,4 @@ def calculate_progress(tasks=tasks):
         if i["completed"] == True:
             count += 1
     progress = (count / len(tasks)) * 100
-    print(progress)
     return progress
