@@ -1,5 +1,5 @@
 # Import functions from task_manager.task_utils package
-from task_utils import *
+from .task_utils import *
 
 # Define the main function
 def main():
